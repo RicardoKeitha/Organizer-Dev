@@ -1,0 +1,33 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.nav {
+  display: flex;
+  padding: 10px 30px;
+}
+.menu-item-type-custom {
+  padding-left: 36px;
+}
+h1 span {
+  background: -webkit-linear-gradient(#ed1757, #af3cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input.wpforms-field-large {
+  border-radius: 8px !important;
+  margin: 0 auto !important;
+  border-color: transparent !important;
+}
+
+div.wpforms-submit-container {
+  text-align: end !important;
+}
+
+button.wpforms-submit {
+  border-radius: 8px !important;
+  border-color: transparent !important;
+  background-color: #1A23F0 !important;
+  color: #fff !important;
+}
