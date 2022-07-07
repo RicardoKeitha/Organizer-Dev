@@ -20,11 +20,11 @@ endwhile;
 		</div>
 		<div class="basis-1/2 mx-auto">
 			<div class="w-full relative">
-				<img class="max-h-96 mx-auto rounded-2xl border-2" x-bind:src="images[selected]"/>
+				<img class="max-h-96 mx-auto rounded-2xl border-2" x-bind:src="images[selected]" />
 				<div class="w-full absolute bottom-0 h-1/8">
-					<div class="mx-auto">
-						<img class="hover:invert" src="http://localhost/wordpress/wp-content/uploads/2022/07/btn-slide-voltar-hover-54.svg">
-						<img class="hover:invert" src="http://localhost/wordpress/wp-content/uploads/2022/07/btn-slide-proximo-hover-54.svg">
+					<div class="w-3/4 flex align-center mx-auto justify-center">
+						<img class="hover:invert transition	duration-100" src="http://localhost/wordpress/wp-content/uploads/2022/07/btn-slide-voltar-hover-54.svg" @click="selected = selected === 0 ? images.length -1 : selected - 1" >
+						<img class="hover:invert transition	duration-100" src="http://localhost/wordpress/wp-content/uploads/2022/07/btn-slide-proximo-hover-54.svg" @click="selected = selected === images.length - 1 ? 0 : selected + 1"> 
 					</div>
 				</div>
 			</div>
