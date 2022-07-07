@@ -2,10 +2,10 @@
 <footer class="py-12 content-info bg-comp-white">
   <div class="max-w-7 px-3 mx-auto">
       <div class="w-3/4 mx-auto flex justify-between h-16">
-        <div class="basis-1/2 my-auto">
+        <div class="basis-1/3 my-auto">
           <img src="<?php echo e(the_field('logo_footer','option')); ?>"/>
         </div>
-        <div class="basis-1/2 flex my-auto justify-end">
+        <div class="basis-2/3 flex my-auto justify-end">
           <?php if(has_nav_menu('primary_navigation')): ?>
           <?php echo wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav', 'echo' => false]); ?>
 
