@@ -3,13 +3,13 @@
 Este é um projeto feito para a entrevista técnica do processo seletivo da Nano Incub.
 <hr>
 Foram utilizados as seguintes ferramentas para a criação desta landing page:
-<p align="center">
-	<img src="./images/wordpress.png" width="240"/>
-	<img src="./images/acf.png" width="240"/>
-	<img src="./images/sage.svg" width="240"/>
-	<img src="./images/tailwind.svg" width="240"/>
-	<img src="./images/alpine.svg" width="240"/>
-</p>
+
+<p align="center"><img src="./images/wordpress.png" width="240"/></p>
+<p align="center"><img src="./images/acf.png" height="60"/></p>
+<p align="center"><img src="./images/sage.svg" height="60"/></p>
+<p align="center"><img src="./images/tailwind.svg" width="240"/></p>
+<p align="center"><img src="./images/alpine.svg" width="240"/></p>
+
 A versão utilizada do Sage é a 10. Requer PHP 8+
 
 Para realizar a instalação, favor seguir este guia:
